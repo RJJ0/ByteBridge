@@ -1,0 +1,601 @@
+{
+  "baseUrl": "http://127.0.0.1:5173",
+  "generatedAt": "2026-10-09T09:54:08.993Z",
+  "layouts": [
+    {
+      "label": "home-320x900",
+      "title": "ByteBridge | Digital Skills for Everyone",
+      "innerWidth": 320,
+      "scrollWidth": 320,
+      "horizontalOverflow": false,
+      "bodyScrollWidth": 320,
+      "brokenImages": [],
+      "overflowingElements": []
+    },
+    {
+      "label": "home-375x900",
+      "title": "ByteBridge | Digital Skills for Everyone",
+      "innerWidth": 375,
+      "scrollWidth": 375,
+      "horizontalOverflow": false,
+      "bodyScrollWidth": 375,
+      "brokenImages": [],
+      "overflowingElements": []
+    },
+    {
+      "label": "home-390x900",
+      "title": "ByteBridge | Digital Skills for Everyone",
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "horizontalOverflow": false,
+      "bodyScrollWidth": 390,
+      "brokenImages": [],
+      "overflowingElements": []
+    },
+    {
+      "label": "home-390x900-menu-open",
+      "title": "ByteBridge | Digital Skills for Everyone",
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "horizontalOverflow": false,
+      "bodyScrollWidth": 390,
+      "brokenImages": [],
+      "overflowingElements": []
+    },
+    {
+      "label": "home-768x900",
+      "title": "ByteBridge | Digital Skills for Everyone",
+      "innerWidth": 768,
+      "scrollWidth": 768,
+      "horizontalOverflow": false,
+      "bodyScrollWidth": 768,
+      "brokenImages": [],
+      "overflowingElements": []
+    },
+    {
+      "label": "home-1024x900",
+      "title": "ByteBridge | Digital Skills for Everyone",
+      "innerWidth": 1024,
+      "scrollWidth": 1024,
+      "horizontalOverflow": false,
+      "bodyScrollWidth": 1024,
+      "brokenImages": [],
+      "overflowingElements": []
+    },
+    {
+      "label": "home-1440x900",
+      "title": "ByteBridge | Digital Skills for Everyone",
+      "innerWidth": 1440,
+      "scrollWidth": 1440,
+      "horizontalOverflow": false,
+      "bodyScrollWidth": 1440,
+      "brokenImages": [],
+      "overflowingElements": []
+    },
+    {
+      "label": "home-844x390",
+      "title": "ByteBridge | Digital Skills for Everyone",
+      "innerWidth": 844,
+      "scrollWidth": 844,
+      "horizontalOverflow": false,
+      "bodyScrollWidth": 844,
+      "brokenImages": [],
+      "overflowingElements": []
+    },
+    {
+      "label": "about-320x900",
+      "title": "About Us | ByteBridge",
+      "innerWidth": 320,
+      "scrollWidth": 320,
+      "horizontalOverflow": false,
+      "bodyScrollWidth": 320,
+      "brokenImages": [],
+      "overflowingElements": []
+    },
+    {
+      "label": "about-375x900",
+      "title": "About Us | ByteBridge",
+      "innerWidth": 375,
+      "scrollWidth": 375,
+      "horizontalOverflow": false,
+      "bodyScrollWidth": 375,
+      "brokenImages": [],
+      "overflowingElements": []
+    },
+    {
+      "label": "about-390x900",
+      "title": "About Us | ByteBridge",
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "horizontalOverflow": false,
+      "bodyScrollWidth": 390,
+      "brokenImages": [],
+      "overflowingElements": []
+    },
+    {
+      "label": "about-390x900-menu-open",
+      "title": "About Us | ByteBridge",
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "horizontalOverflow": false,
+      "bodyScrollWidth": 390,
+      "brokenImages": [],
+      "overflowingElements": []
+    },
+    {
+      "label": "about-768x900",
+      "title": "About Us | ByteBridge",
+      "innerWidth": 768,
+      "scrollWidth": 768,
+      "horizontalOverflow": false,
+      "bodyScrollWidth": 768,
+      "brokenImages": [],
+      "overflowingElements": []
+    },
+    {
+      "label": "about-1024x900",
+      "title": "About Us | ByteBridge",
+      "innerWidth": 1024,
+      "scrollWidth": 1024,
+      "horizontalOverflow": false,
+      "bodyScrollWidth": 1024,
+      "brokenImages": [],
+      "overflowingElements": []
+    },
+    {
+      "label": "about-1440x900",
+      "title": "About Us | ByteBridge",
+      "innerWidth": 1440,
+      "scrollWidth": 1440,
+      "horizontalOverflow": false,
+      "bodyScrollWidth": 1440,
+      "brokenImages": [],
+      "overflowingElements": []
+    },
+    {
+      "label": "about-844x390",
+      "title": "About Us | ByteBridge",
+      "innerWidth": 844,
+      "scrollWidth": 844,
+      "horizontalOverflow": false,
+      "bodyScrollWidth": 844,
+      "brokenImages": [],
+      "overflowingElements": []
+    }
+  ],
+  "accessibility": [
+    {
+      "label": "home-390x900",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".navbar > .brand-link[aria-label=\"ByteBridge home\"][href=\"/\"] > .brand > span"
+            ],
+            [
+              ".navbar > .brand-link[aria-label=\"ByteBridge home\"][href=\"/\"] > .brand > span > .brand-accent"
+            ],
+            [
+              ".hero-enter.eyebrow"
+            ],
+            [
+              "#home-heading"
+            ],
+            [
+              "#home-heading > span"
+            ],
+            [
+              ".hero-description"
+            ],
+            [
+              ".hero-footnote > p"
+            ],
+            [
+              "p > strong"
+            ],
+            [
+              ".photo-caption > span:nth-child(2)"
+            ],
+            [
+              "span:nth-child(2) > strong"
+            ],
+            [
+              "a[href$=\"/#digital-literacy\"]"
+            ],
+            [
+              "a[href$=\"/#online-safety\"]"
+            ],
+            [
+              "a[href$=\"#technology-opportunities\"]"
+            ],
+            [
+              ".mission-link"
+            ],
+            [
+              ".window-label"
+            ],
+            [
+              ".learning-kicker"
+            ],
+            [
+              ".learning-window-body > strong"
+            ],
+            [
+              ".learning-path > div:nth-child(1) > p"
+            ],
+            [
+              "div:nth-child(1) > p > small"
+            ],
+            [
+              ".learning-path > div:nth-child(2) > p"
+            ],
+            [
+              "div:nth-child(2) > p > small"
+            ],
+            [
+              ".learning-path > div:nth-child(3) > p"
+            ],
+            [
+              "div:nth-child(3) > p > small"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "label": "home-390x900-menu-open",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".navbar > .brand-link[aria-label=\"ByteBridge home\"][href=\"/\"] > .brand > span"
+            ],
+            [
+              ".navbar > .brand-link[aria-label=\"ByteBridge home\"][href=\"/\"] > .brand > span > .brand-accent"
+            ],
+            [
+              ".hero-enter.eyebrow"
+            ],
+            [
+              "#home-heading"
+            ],
+            [
+              "#home-heading > span"
+            ],
+            [
+              ".hero-description"
+            ],
+            [
+              ".hero-footnote > p"
+            ],
+            [
+              "p > strong"
+            ],
+            [
+              ".photo-caption > span:nth-child(2)"
+            ],
+            [
+              "span:nth-child(2) > strong"
+            ],
+            [
+              "a[href$=\"/#digital-literacy\"]"
+            ],
+            [
+              "a[href$=\"/#online-safety\"]"
+            ],
+            [
+              "a[href$=\"#technology-opportunities\"]"
+            ],
+            [
+              ".mission-link"
+            ],
+            [
+              ".window-label"
+            ],
+            [
+              ".learning-kicker"
+            ],
+            [
+              ".learning-window-body > strong"
+            ],
+            [
+              ".learning-path > div:nth-child(1) > p"
+            ],
+            [
+              "div:nth-child(1) > p > small"
+            ],
+            [
+              ".learning-path > div:nth-child(2) > p"
+            ],
+            [
+              "div:nth-child(2) > p > small"
+            ],
+            [
+              ".learning-path > div:nth-child(3) > p"
+            ],
+            [
+              "div:nth-child(3) > p > small"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "label": "home-1440x900",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".desktop-navigation > .navigation-link[href$=\"about\"][data-discover=\"true\"]"
+            ],
+            [
+              ".hero-enter.eyebrow"
+            ],
+            [
+              "#home-heading"
+            ],
+            [
+              "#home-heading > span"
+            ],
+            [
+              ".hero-description"
+            ],
+            [
+              ".hero-footnote > p"
+            ],
+            [
+              "p > strong"
+            ],
+            [
+              ".photo-caption > span:nth-child(2)"
+            ],
+            [
+              "span:nth-child(2) > strong"
+            ],
+            [
+              ".hero-photo-label"
+            ],
+            [
+              ".hero-bottom-label"
+            ],
+            [
+              ".hero-bottom-label > strong"
+            ],
+            [
+              "a[href$=\"/#digital-literacy\"]"
+            ],
+            [
+              "a[href$=\"/#online-safety\"]"
+            ],
+            [
+              "a[href$=\"#technology-opportunities\"]"
+            ],
+            [
+              ".window-label"
+            ],
+            [
+              ".learning-kicker"
+            ],
+            [
+              ".learning-window-body > strong"
+            ],
+            [
+              ".learning-path > div:nth-child(1) > p"
+            ],
+            [
+              "div:nth-child(1) > p > small"
+            ],
+            [
+              ".learning-path > div:nth-child(2) > p"
+            ],
+            [
+              "div:nth-child(2) > p > small"
+            ],
+            [
+              ".learning-path > div:nth-child(3) > p"
+            ],
+            [
+              "div:nth-child(3) > p > small"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "label": "about-390x900",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".about-hero__topline > .eyebrow"
+            ],
+            [
+              ".about-hero__badge"
+            ],
+            [
+              "#about-heading"
+            ],
+            [
+              "#about-heading > span"
+            ],
+            [
+              ".about-hero__description"
+            ],
+            [
+              ".about-hero__link"
+            ],
+            [
+              "figcaption > span:nth-child(2)"
+            ],
+            [
+              "span:nth-child(2) > strong"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "label": "about-390x900-menu-open",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".about-hero__topline > .eyebrow"
+            ],
+            [
+              ".about-hero__badge"
+            ],
+            [
+              "#about-heading"
+            ],
+            [
+              "#about-heading > span"
+            ],
+            [
+              ".about-hero__description"
+            ],
+            [
+              ".about-hero__link"
+            ],
+            [
+              "figcaption > span:nth-child(2)"
+            ],
+            [
+              "span:nth-child(2) > strong"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "label": "about-1440x900",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".about-hero__topline > .eyebrow"
+            ],
+            [
+              ".about-hero__badge"
+            ],
+            [
+              "#about-heading"
+            ],
+            [
+              "#about-heading > span"
+            ],
+            [
+              ".about-hero__description"
+            ],
+            [
+              ".about-hero__link"
+            ],
+            [
+              ".about-hero__aside > p"
+            ],
+            [
+              "p > strong"
+            ],
+            [
+              "figcaption > span:nth-child(2)"
+            ],
+            [
+              "span:nth-child(2) > strong"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "reducedMotion": [
+    {
+      "route": "/",
+      "preferenceMatches": true,
+      "headings": [
+        {
+          "text": "Digital Skillsfor Everyone.",
+          "visible": true
+        },
+        {
+          "text": "The Digital Divide Is More Than a Connection.",
+          "visible": true
+        },
+        {
+          "text": "Bridging Knowledge.Building Opportunities.",
+          "visible": true
+        },
+        {
+          "text": "Skills That Makea Difference.",
+          "visible": true
+        },
+        {
+          "text": "Learn. Build. Connect.",
+          "visible": true
+        },
+        {
+          "text": "Let’s Build a MoreConnected Future.",
+          "visible": true
+        }
+      ],
+      "significantAnimations": [],
+      "scrollBehavior": "auto"
+    },
+    {
+      "route": "/about",
+      "preferenceMatches": true,
+      "headings": [
+        {
+          "text": "Technology Connects Us.People Move Us Forward.",
+          "visible": true
+        },
+        {
+          "text": "Built on the Belief That Digital Knowledge Should Be Accessible.",
+          "visible": true
+        },
+        {
+          "text": "A clear purpose.A more inclusive future.",
+          "visible": true
+        },
+        {
+          "text": "What We Believe In.",
+          "visible": true
+        },
+        {
+          "text": "The Minds Behind ByteBridge.",
+          "visible": true
+        },
+        {
+          "text": "Explore What Drives Us.",
+          "visible": true
+        }
+      ],
+      "significantAnimations": [],
+      "scrollBehavior": "auto"
+    }
+  ],
+  "runtimeErrors": [],
+  "externalFontFailures": [],
+  "requestFailures": [],
+  "summary": {
+    "layoutsChecked": 16,
+    "overflowFailures": 0,
+    "brokenImageFailures": 0,
+    "accessibilityViolations": 0,
+    "reducedMotionFailures": 0,
+    "runtimeErrors": 0,
+    "requestFailures": 0,
+    "externalFontFailures": 0
+  }
+}

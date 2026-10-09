@@ -1,0 +1,17 @@
+{
+  "checks": [
+    "Client-side navigation preserves document, updates title, and focuses main",
+    "About direct navigation and refresh render correctly",
+    "Cross-route and repeated mission links scroll and focus correctly below sticky navigation",
+    "All three skill cards expand/collapse with Enter and Space",
+    "Mobile menu opens by keyboard, exposes links, closes on Escape, and restores focus",
+    "Selecting a mobile navigation link closes menu and focuses new page; closed links are inert",
+    "Mobile menu closes on outside click and stays closed after desktop/mobile resizing",
+    "Reduced-motion mode disables hero and gradient animations",
+    "Immediate keyboard navigation also works with normal motion enabled",
+    "Both locally hosted variable font families load successfully",
+    "Unknown URLs recover to Home without creating an extra page",
+    "No browser JavaScript errors during interactions"
+  ],
+  "errors": []
+}

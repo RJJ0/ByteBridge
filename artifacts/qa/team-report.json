@@ -1,0 +1,204 @@
+{
+  "productionTeamDataModified": false,
+  "cases": [
+    {
+      "memberCount": 1,
+      "width": 320,
+      "cardCount": 1,
+      "columns": 1,
+      "rowCount": 1,
+      "hasHorizontalOverflow": false,
+      "overflowElements": [],
+      "initials": [
+        "Q1"
+      ],
+      "remainingPortraitImagesLoad": true,
+      "introductionIsHidden": true,
+      "names": [
+        "QA Member 1"
+      ],
+      "exceptions": [],
+      "passed": true
+    },
+    {
+      "memberCount": 1,
+      "width": 768,
+      "cardCount": 1,
+      "columns": 1,
+      "rowCount": 1,
+      "hasHorizontalOverflow": false,
+      "overflowElements": [],
+      "initials": [
+        "Q1"
+      ],
+      "remainingPortraitImagesLoad": true,
+      "introductionIsHidden": true,
+      "names": [
+        "QA Member 1"
+      ],
+      "exceptions": [],
+      "passed": true
+    },
+    {
+      "memberCount": 1,
+      "width": 1440,
+      "cardCount": 1,
+      "columns": 1,
+      "rowCount": 1,
+      "hasHorizontalOverflow": false,
+      "overflowElements": [],
+      "initials": [
+        "Q1"
+      ],
+      "remainingPortraitImagesLoad": true,
+      "introductionIsHidden": true,
+      "names": [
+        "QA Member 1"
+      ],
+      "exceptions": [],
+      "passed": true
+    },
+    {
+      "memberCount": 2,
+      "width": 320,
+      "cardCount": 2,
+      "columns": 1,
+      "rowCount": 2,
+      "hasHorizontalOverflow": false,
+      "overflowElements": [],
+      "initials": [
+        "Q1",
+        "Q2"
+      ],
+      "remainingPortraitImagesLoad": true,
+      "introductionIsHidden": true,
+      "names": [
+        "QA Member 1",
+        "QA Member 2"
+      ],
+      "exceptions": [],
+      "passed": true
+    },
+    {
+      "memberCount": 2,
+      "width": 768,
+      "cardCount": 2,
+      "columns": 2,
+      "rowCount": 1,
+      "hasHorizontalOverflow": false,
+      "overflowElements": [],
+      "initials": [
+        "Q1",
+        "Q2"
+      ],
+      "remainingPortraitImagesLoad": true,
+      "introductionIsHidden": true,
+      "names": [
+        "QA Member 1",
+        "QA Member 2"
+      ],
+      "exceptions": [],
+      "passed": true
+    },
+    {
+      "memberCount": 2,
+      "width": 1440,
+      "cardCount": 2,
+      "columns": 2,
+      "rowCount": 1,
+      "hasHorizontalOverflow": false,
+      "overflowElements": [],
+      "initials": [
+        "Q1",
+        "Q2"
+      ],
+      "remainingPortraitImagesLoad": true,
+      "introductionIsHidden": true,
+      "names": [
+        "QA Member 1",
+        "QA Member 2"
+      ],
+      "exceptions": [],
+      "passed": true
+    },
+    {
+      "memberCount": 7,
+      "width": 320,
+      "cardCount": 7,
+      "columns": 1,
+      "rowCount": 7,
+      "hasHorizontalOverflow": false,
+      "overflowElements": [],
+      "initials": [
+        "Q1",
+        "Q2"
+      ],
+      "remainingPortraitImagesLoad": true,
+      "introductionIsHidden": true,
+      "names": [
+        "QA Member 1",
+        "QA Member 2",
+        "QA Member 3",
+        "QA Member 4",
+        "QA Member 5",
+        "QA Member 6",
+        "QA Member 7"
+      ],
+      "exceptions": [],
+      "passed": true
+    },
+    {
+      "memberCount": 7,
+      "width": 768,
+      "cardCount": 7,
+      "columns": 2,
+      "rowCount": 4,
+      "hasHorizontalOverflow": false,
+      "overflowElements": [],
+      "initials": [
+        "Q1",
+        "Q2"
+      ],
+      "remainingPortraitImagesLoad": true,
+      "introductionIsHidden": true,
+      "names": [
+        "QA Member 1",
+        "QA Member 2",
+        "QA Member 3",
+        "QA Member 4",
+        "QA Member 5",
+        "QA Member 6",
+        "QA Member 7"
+      ],
+      "exceptions": [],
+      "passed": true
+    },
+    {
+      "memberCount": 7,
+      "width": 1440,
+      "cardCount": 7,
+      "columns": 3,
+      "rowCount": 3,
+      "hasHorizontalOverflow": false,
+      "overflowElements": [],
+      "initials": [
+        "Q1",
+        "Q2"
+      ],
+      "remainingPortraitImagesLoad": true,
+      "introductionIsHidden": true,
+      "names": [
+        "QA Member 1",
+        "QA Member 2",
+        "QA Member 3",
+        "QA Member 4",
+        "QA Member 5",
+        "QA Member 6",
+        "QA Member 7"
+      ],
+      "exceptions": [],
+      "passed": true
+    }
+  ],
+  "failures": []
+}
