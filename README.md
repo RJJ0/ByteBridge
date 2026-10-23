@@ -1,6 +1,8 @@
 ﻿# ByteBridge
 
-A responsive, frontend-only nonprofit concept created for a student project. Built in the existing React + TypeScript + Vite application, with exactly two pages: Home (`/`) and About Us (`/about`).
+A responsive nonprofit concept created for a student project. Built in React + TypeScript + Vite, with Home (`/`), About Us (`/about`), Donation (`/donate`), and a Stripe payment status return route (`/payment-success`).
+
+Donation setup and payment limitations are documented in [DONATIONS.md](DONATIONS.md). The Express API is in `server/`; start it with `npm start --prefix server` using Node.js 24+. Online checkout remains unavailable until matching Stripe test keys are configured and the API verifies PHP card-payment support.
 
 ## Run locally
 
@@ -23,7 +25,7 @@ The build command checks TypeScript before creating `dist/`. For production host
 
 ## Project map
 
-- `src/App.tsx`: the two routes, page titles, descriptions, hash scrolling, and route focus.
+- `src/App.tsx`: routes, page titles, descriptions, hash scrolling, and route focus.
 - `src/pages/Home.tsx`: six homepage sections and practical learning tips.
 - `src/pages/About.tsx`: story, mission, vision, values, student responsibilities, and team.
 - `src/components/`: shared navigation, footer, original SVG brand, skill cards, team cards, and Intersection Observer reveals.
@@ -52,7 +54,7 @@ The About page automatically switches from its student responsibilities introduc
 
 ## Dependencies
 
-Only `react-router-dom` and `lucide-react` were added to the application's dependencies. Styling uses vanilla CSS; no UI or animation framework is required.
+The application uses React Router, Lucide icons, Stripe.js, and React Stripe.js. Styling uses vanilla CSS; no UI or animation framework is required.
 
 ## Browser verification
 
@@ -69,12 +71,13 @@ In another terminal:
 node scripts/browser-audit.mjs
 node scripts/interaction-audit.mjs
 node scripts/team-audit.mjs
+node scripts/donation-audit.mjs
 ```
 
 Scripts use the existing Windows Chrome installation. Set `CHROME_PATH` to an alternative executable and `BASE_URL` to another running development URL when needed. Reports and screenshots are written into `artifacts/qa/`. Team fixture data is intercepted only in the test browser; it never changes the real team file.
 
 ## Scope and later refinements
 
-ByteBridge is presented honestly as a proposed, student-created initiative. The site does not collect personal information, accept donations, provide accounts, or claim completed programs. Stock photographs illustrate learning and are not team portraits or evidence of real activities.
+ByteBridge is presented honestly as a proposed, student-created initiative. The donation page can accept payments only after the included payment backend and matching Stripe keys have been configured; payment details are collected through Stripe Elements. The site does not provide accounts or claim completed programs. Stock photographs illustrate learning and are not team portraits or evidence of real activities.
 
 Next refinements can include approved team details and original project photography, or adjustments to image crops and typography based on your preferred visual direction. Photographs and both fonts are hosted locally; the site does not depend on external asset requests.

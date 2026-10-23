@@ -1,5 +1,50 @@
 # Verification
 
+## Dark/orange reference redesign — October 23, 2026
+
+- Rebuilt shared tokens and restyled Home, About, Donation, payment status, navigation, footer, brand, and favicon. Preserved content, routes, disclosures, and payment/backend behavior.
+- Reference decisions are recorded in `DESIGN.md`. Motion uses 180ms microinteractions and 450–600ms reveals, with reduced-motion support and no continuous hero drift.
+- `npm.cmd run build` (including TypeScript) and `npm.cmd run lint`: passed.
+- `node scripts/redesign-audit.mjs`: all 32 route/width cases passed at 320, 375, 430, 768, 1024, 1280, 1440, and 1920px. No horizontal overflow, broken images, missing/duplicate h1s, or runtime errors. Eight page axe scans and one mobile-menu axe scan had no violations.
+- Existing interaction audit: all 12 checks passed, including keyboard disclosures, menu focus/Escape/resize, route focus, mission scrolling, reduced motion, and fallback routing.
+- Donation audit: all eight grouped checks passed, including simulated payment errors, processing/success locks, idempotency IDs, stale responses, and amount verification.
+- Real Stripe test form verification: Continue to payment enabled; actual hosted fields became visible for PHP 250 and custom PHP 350.50. Stripe fields use the dark Appearance theme. No payment was submitted, and no actual webhook delivery was tested.
+- Desktop/mobile Home, About, and Donation screenshots plus the real Stripe payment panel were inspected. Reports and screenshots are under ignored `artifacts/qa/`.
+
+## Stripe credential recheck and real checkout — October 23, 2026
+
+- Updated local test keys now authenticate with Stripe. No secret is present in the frontend environment.
+- Corrected test readiness to permit sandbox checkout before live activation; live activation checks remain enforced for live keys.
+- Replaced the unsupported `payment_method_types` request parameter with `allowed_payment_method_types` for the installed Stripe API.
+- The running `/donation-config` returns 200 with `enabled: true` and PHP bounds.
+- Real browser verification passed: Continue to payment enabled, Stripe PaymentElement loaded and became ready for PHP 250, then a custom PHP 350.50 created a new matching intent and ready form. This verifies publishable/secret key compatibility without submitting payment.
+- Eight backend tests, production build/TypeScript, and ESLint passed. Signed webhook fixtures are tested; actual Stripe webhook delivery and a completed test payment remain unverified.
+- `scripts/stripe-checkout-audit.mjs` reproduces the real form check; `artifacts/qa/stripe-checkout-report.json` contains amount-only results and no client secrets.
+
+## Configured backend integration
+
+- Added the missing payment configuration API and replaced the fixed PHP 100 intent with validated frontend-selected amounts.
+- Added Stripe idempotency, account/PHP card readiness checks, local-origin CORS, request limits, and secret-safe errors.
+- Added raw-body signature verification and transactional SQLite donation records with event deduplication and status ordering.
+- `npm.cmd test --prefix server`: seven backend tests passed using simulated Stripe responses and real webhook signing/SQLite persistence.
+- `npm.cmd run build` and `npm.cmd run lint`: passed.
+- Initially the running API responded with HTTP 503 and `enabled: false` because the configured key did not match Stripe's expected format. Credential setup and real form verification were subsequently completed as recorded above.
+- Signed test webhook fixtures were verified locally; Stripe CLI delivery and a completed Stripe test payment were not tested.
+
+## Donation integration — October 23, 2026
+
+- `npm.cmd run build`: passed, including TypeScript checks.
+- `npm.cmd run lint`: passed.
+- Existing interaction audit: all 12 checks passed, preserving Home/About navigation, focus, mission scrolling, tips, menu behavior, reduced motion, fonts, and unknown-route recovery.
+- Existing browser audit: all 16 Home/About layout cases passed, with no overflow, broken images, accessibility violations, runtime errors, or failed requests. Six existing axe scans passed.
+- New `node scripts/donation-audit.mjs`: all eight grouped checks passed. Donation layout verified at 320, 375, 768, 1024, and 1440px; desktop and mobile axe scans reported no violations. Screenshots inspected at 1440px and 375px.
+- Donation checks cover mobile active navigation/menu closing, page metadata, invalid custom amounts, centavo precision, unavailable checkout, and unverified payment return URLs.
+- Simulated API/Stripe checks cover one initial request under StrictMode, exact request amount, removal of stale Elements, ignored late responses, Stripe amount mismatch blocking, retry request IDs, accessible declines, duplicate submission prevention, success, and processing locks. These use browser-only module/API interception; production code has no test mode bypass.
+- No actual Stripe transaction was completed. Account-specific PHP support, real PaymentElement rendering, redirect payment methods, backend validation/idempotency, signature verification, and durable webhook donation records remain unverified because the repository has no payment backend. See `DONATIONS.md`.
+- Reports and screenshots are in ignored `artifacts/qa/`. The browser tools were installed temporarily without changing `package.json` or `package-lock.json`.
+
+## Earlier baseline
+
 Verified on October 9, 2026 with the installed Google Chrome browser and a local Vite development server.
 
 ## Results
